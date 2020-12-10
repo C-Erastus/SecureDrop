@@ -1,0 +1,12 @@
+This project is a secure file transfer protcol. It's very similar to Apple Airdrop.
+The appliaton uses a My-SQL database in AWS. All users of the application
+credentials are stored in the database. I implemented a secure way to authenticate
+each user.
+
+The actual file transfer part is done using TCP sockets that I implemented. 
+
+security practices such as encryption will be implemented to protect user credentials. 
+
+Read more about security on here https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-175B.pdf
+
+
